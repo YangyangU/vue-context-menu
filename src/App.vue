@@ -24,8 +24,8 @@ import ContextMenu from './components/ContextMenu.vue';
 import { ref } from 'vue';
 
 const choose1 = ref('');
-const choose2 = ref('');
-const choose3 = ref('');
+// const choose2 = ref('');
+// const choose3 = ref('');
 
 export interface ItemType {
     label: string;
@@ -40,8 +40,8 @@ const baseItems: ItemType[] = [
 ];
 
 const items = baseItems.concat({ label: 'Undo', key: 'undo' });
-const items2 = [...baseItems];
-const items3 = [...baseItems];
+// const items2 = [...baseItems];
+// const items3 = [...baseItems];
 </script>
 
 <style scoped>
